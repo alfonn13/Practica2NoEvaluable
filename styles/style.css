@@ -4,15 +4,15 @@ body{
 
 .init{
     width: 100%;
-    height: 230px;
+    height: 300px;
     background-color: #2c2b2b;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
     color: white;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 55px;
 }
 
 h2{
@@ -45,8 +45,11 @@ nav{
 }
 
 a{
-    text-decoration: none;
     color: black;
+}
+
+.anav{
+    text-decoration: none;
 }
 
 .section-container{
@@ -55,6 +58,16 @@ a{
     height: 200px;
     padding: 25px;
     border: 1px solid;
+    text-align: center;
+}
+.section-container.example2{
+    background-color: #12a14b;
+    color: white;
+    padding-top: 70px;
+}
+
+.section-container.example3{
+    height: 280px;
 }
 
 .container-article{
@@ -86,6 +99,10 @@ a{
     text-align:center;
     border: 1px solid;
 
+}
+
+.responsive-text {
+    font-size: 1.2em;
 }
 
 
